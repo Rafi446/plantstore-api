@@ -40,7 +40,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 
 - [x] Laravel project initialization
 - [x] Database configuration
-- [ ] Database design
+- [x] Database design
 - [ ] Database migrations
 - [ ] Models
 - [ ] Eloquent relationships
