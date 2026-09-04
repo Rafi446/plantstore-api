@@ -43,7 +43,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Database design
 - [x] Database migrations
 - [x] Models
-- [ ] Eloquent relationships
+- [x] Eloquent relationships
 - [ ] Authentication
 
 ### Day 2 — E-Commerce Core
