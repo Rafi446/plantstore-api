@@ -39,7 +39,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 ### Day 1 — Foundation
 
 - [x] Laravel project initialization
-- [ ] Database configuration
+- [x] Database configuration
 - [ ] Database design
 - [ ] Database migrations
 - [ ] Models
