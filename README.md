@@ -42,7 +42,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Database configuration
 - [x] Database design
 - [x] Database migrations
-- [ ] Models
+- [x] Models
 - [ ] Eloquent relationships
 - [ ] Authentication
 
