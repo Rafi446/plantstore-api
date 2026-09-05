@@ -44,10 +44,10 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Database migrations
 - [x] Models
 - [x] Eloquent relationships
-- [ ] Authentication
 
 ### Day 2 — E-Commerce Core
 
+- [x] Authentication
 - [ ] Category API
 - [ ] Product API
 - [ ] API Resources
