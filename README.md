@@ -49,7 +49,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 
 - [x] Authentication
 - [x] Category API
-- [ ] Product API
+- [x] Product API
 - [ ] API Resources
 - [ ] Shopping Cart API
 - [ ] Checkout
