@@ -36,7 +36,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 
 ## Development Progress
 
-### Day 1 — Foundation
+### Foundation
 
 - [x] Laravel project initialization
 - [x] Database configuration
@@ -45,10 +45,10 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Models
 - [x] Eloquent relationships
 
-### Day 2 — E-Commerce Core
+### E-Commerce Core
 
 - [x] Authentication
-- [ ] Category API
+- [x] Category API
 - [ ] Product API
 - [ ] API Resources
 - [ ] Shopping Cart API
@@ -56,7 +56,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [ ] Order API
 - [ ] Stock management
 
-### Day 3 — Finalization
+### Finalization
 
 - [ ] Role-based authorization
 - [ ] Form Request validation
