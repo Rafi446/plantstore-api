@@ -51,7 +51,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Category API
 - [x] Product API
 - [x] API Resources
-- [ ] Shopping Cart API
+- [x] Shopping Cart API
 - [ ] Checkout
 - [ ] Order API
 - [ ] Stock management
