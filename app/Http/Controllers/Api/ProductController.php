@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreProductApiRequest;
 use App\Http\Requests\UpdateProductApiRequest;
+use App\Http\Resources\ProductResource;
 use App\Models\Product;
 
 class ProductController extends Controller
@@ -16,9 +17,7 @@ class ProductController extends Controller
     {
         $products = Product::with('category')->get();
 
-        return response()->json([
-            'data' => $products,
-        ]);
+        return ProductResource::collection($products);
     }
 
     /**
@@ -32,7 +31,7 @@ class ProductController extends Controller
 
         return response()->json([
             'message' => 'Product created successfully',
-            'data' => $product,
+            'data' => new ProductResource($product),
         ], 201);
     }
 
@@ -43,9 +42,7 @@ class ProductController extends Controller
     {
         $product->load('category');
 
-        return response()->json([
-            'data' => $product,
-        ]);
+        return new ProductResource($product);
     }
 
     /**
@@ -59,7 +56,7 @@ class ProductController extends Controller
 
         return response()->json([
             'message' => 'Product updated successfully',
-            'data' => $product,
+            'data' => new ProductResource($product),
         ]);
     }
 

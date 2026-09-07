@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\StoreCategoryApiRequest;
 use App\Http\Requests\UpdateCategoryApiRequest;
+use App\Http\Resources\CategoryResource;
 use App\Models\Category;
 
 class CategoryController extends Controller
@@ -16,9 +17,7 @@ class CategoryController extends Controller
     {
         $categories = Category::all();
 
-        return response()->json([
-            'data' => $categories,
-        ]);
+        return CategoryResource::collection($categories);
     }
 
     /**
@@ -32,7 +31,7 @@ class CategoryController extends Controller
 
         return response()->json([
             'message' => 'Category created successfully',
-            'data' => $category,
+            'data' => new CategoryResource($category),
         ], 201);
     }
 
@@ -41,9 +40,7 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        return response()->json([
-            'data' => $category,
-        ]);
+        return new CategoryResource($category);
     }
 
     /**
@@ -57,7 +54,7 @@ class CategoryController extends Controller
 
         return response()->json([
             'message' => 'Category updated successfully',
-            'data' => $category,
+            'data' => new CategoryResource($category),
         ]);
     }
 
