@@ -50,7 +50,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Authentication
 - [x] Category API
 - [x] Product API
-- [ ] API Resources
+- [x] API Resources
 - [ ] Shopping Cart API
 - [ ] Checkout
 - [ ] Order API
