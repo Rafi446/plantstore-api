@@ -54,7 +54,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 - [x] Shopping Cart API
 - [x] Checkout
 - [x] Order API
-- [ ] Stock management
+- [x] Stock management
 
 ### Finalization
 
