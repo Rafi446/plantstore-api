@@ -58,7 +58,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 
 ### Finalization
 
-- [ ] Role-based authorization
+- [x] Role-based authorization
 - [ ] Form Request validation
 - [ ] Error handling
 - [ ] Feature testing
