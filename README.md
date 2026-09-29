@@ -59,7 +59,7 @@ Project ini dibuat sebagai portfolio untuk menunjukkan kemampuan dalam pengemban
 ### Finalization
 
 - [x] Role-based authorization
-- [ ] Form Request validation
+- [x] Form Request validation
 - [ ] Error handling
 - [ ] Feature testing
 - [ ] Postman API collection
